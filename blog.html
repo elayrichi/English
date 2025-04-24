@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal blog | Milena Burlutskaya</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #777;
+            margin-top: 0;
+        }
+        .blog-posts {
+            margin-top: 40px;
+        }
+        .post {
+            margin-bottom: 60px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .post-date {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .post h2 {
+            font-size: 1.8em;
+            margin: 0;
+            color: #222;
+        }
+        .post-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .post-content {
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+        .back-btn {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #4a6fa5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .post-image {
+                height: 250px;
+            }
+            .post {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">← Home</a>
+        
+        <div class="header">
+            <p>Inspiration and the first steps of the path</p>
+        </div>
+        
+        <div class="blog-posts">
+            <div class="post">
+                <div class="post-header">
+                    <h2>Reading broadens your horizons</h2>
+                    <div class="post-date">November 23, 2022</div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Книги на полке" class="post-image">
+                <div class="post-content">
+                    <p>A regular reader is not only literate, but also has well-developed speech skills that allow him to express his thoughts clearly, beautifully and easily.</p>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-header">
+                    <h2>Mesmerizing beauty</h2>
+                    <div class="post-date">November 29, 2022</div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Горный пейзаж" class="post-image">
+                <div class="post-content">
+                    <p>The beautiful landscape motivates people to new achievements and victories, so people like to go to the sea and admire the mountain peaks.</p>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-header">
+                    <h2>Healthy lifestyle</h2>
+                    <div class="post-date">November 27, 2024</div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Девушка занимается йогой" class="post-image">
+                <div class="post-content">
+                    <p>A healthy lifestyle helps us fulfill our goals and objectives, successfully implement our plans, cope with difficulties, and if necessary, with enormous overloads.</p>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-header">
+                    <h2>Hobby</h2>
+                    <div class="post-date">December 01, 2024</div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Материалы для рисования" class="post-image">
+                <div class="post-content">
+                    <p>A hobby, first of all, is a hobby and a favorite activity that has a beneficial effect on a person's psychological and physical condition, helps to distract from problems and relax as much as possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
